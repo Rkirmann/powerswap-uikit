@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { LogoIcon } from "../../../components/Svg";
 import Flex from "../../../components/Box/Flex";
-import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "../icons";
+import { HamburgerIcon, HamburgerCloseIcon } from "../icons";
 import MenuButton from "./MenuButton";
 
 interface Props {
@@ -11,34 +10,28 @@ interface Props {
   isDark: boolean;
   togglePush: () => void;
   href: string;
+  logoComp?: React.Component;
+  logoAlt?: string;
+  logoSrc?: string;
 }
 
 const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
-  .mobile-icon {
-    width: 32px;
-    ${({ theme }) => theme.mediaQueries.nav} {
-      display: none;
-    }
-  }
-  .desktop-icon {
-    width: 156px;
-    display: none;
-    ${({ theme }) => theme.mediaQueries.nav} {
-      display: block;
-    }
+  .logo-img {
+    height: 48px;
   }
 `;
 
-const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
+// TODO: We may want to load the default logo differently. This logo is huge and takes forever
+// to load.
+const DEFAULT_LOGO_SRC = "https://lootswap.finance/static/media/loot_logo.5ca5dce3.png";
+
+const Logo: React.FC<Props> = ({ isPushed, togglePush, href, logoComp, logoAlt, logoSrc }) => {
   const isAbsoluteUrl = href.startsWith("http");
-  const innerLogo = (
-    <>
-      <LogoIcon className="mobile-icon" />
-      <LogoWithText className="desktop-icon" isDark={isDark} />
-    </>
-  );
+  const altText = logoAlt || "Lootswap home page";
+  const finalSrc = logoSrc || DEFAULT_LOGO_SRC;
+  const innerLogo = logoComp || <img src={finalSrc} alt={logoAlt} className="logo-img" />;
 
   return (
     <Flex>
@@ -50,11 +43,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Pancake home page">
+        <StyledLink as="a" href={href} aria-label={altText}>
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Pancake home page">
+        <StyledLink to={href} aria-label={altText}>
           {innerLogo}
         </StyledLink>
       )}
