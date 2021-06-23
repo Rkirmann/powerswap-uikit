@@ -70,10 +70,14 @@ const Menu: React.FC<NavProps> = ({
   langs,
   setLang,
   currentLang,
-  cakePriceUsd,
+  tokenPriceUsd,
   links,
   profile,
   children,
+  logo,
+  logoAlt,
+  logoSrc,
+  tokenSrc,
 }) => {
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
@@ -121,6 +125,9 @@ const Menu: React.FC<NavProps> = ({
           togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
           isDark={isDark}
           href={homeLink?.href ?? "/"}
+          logoComp={logo}
+          logoAlt={logoAlt}
+          logoSrc={logoSrc}
         />
         <Flex>
           <UserBlock account={account} login={login} logout={logout} />
@@ -137,9 +144,10 @@ const Menu: React.FC<NavProps> = ({
           langs={langs}
           setLang={setLang}
           currentLang={currentLang}
-          cakePriceUsd={cakePriceUsd}
+          tokenPriceUsd={tokenPriceUsd}
           pushNav={setIsPushed}
           links={links}
+          tokenSrc={tokenSrc}
         />
         <Inner isPushed={isPushed} showMenu={showMenu}>
           {children}

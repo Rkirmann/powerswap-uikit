@@ -41,7 +41,7 @@ export interface MenuEntry {
 export interface PanelProps {
   isDark: boolean;
   toggleTheme: (isDark: boolean) => void;
-  cakePriceUsd?: number;
+  tokenPriceUsd?: number;
   currentLang: string;
   langs: LangType[];
   setLang: (lang: LangType) => void;
@@ -53,4 +53,8 @@ export interface NavProps extends PanelProps {
   login: Login;
   profile?: Profile;
   logout: () => void;
+  logo?: React.Component;
+  logoAlt?: string;
+  logoSrc?: string;
+  tokenSrc?: string;
 }
