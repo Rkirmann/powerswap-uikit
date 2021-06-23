@@ -18,6 +18,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
+    "update-test": "jest --updateSnapshot",
     "release": "yarn build && np"
   },
   "husky": {
