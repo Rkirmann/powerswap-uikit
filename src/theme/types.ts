@@ -29,6 +29,7 @@ export type Shadows = {
 
 export type Gradients = {
   bubblegum: string;
+  lootswap: string;
 };
 
 export type Colors = {
@@ -51,12 +52,14 @@ export type Colors = {
   textSubtle: string;
   borderColor: string;
   card: string;
+  icon: string;
 
   // Gradients
   gradients: Gradients;
 
   // Brand colors
   binance: string;
+  harmony: string;
 };
 
 export type ZIndices = {

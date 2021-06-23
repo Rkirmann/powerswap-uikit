@@ -2,6 +2,7 @@ import { MouseEvent, ReactNode } from "react";
 
 export type AlertTheme = {
   background: string;
+  icon: string;
 };
 
 export const variants = {

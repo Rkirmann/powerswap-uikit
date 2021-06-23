@@ -49,18 +49,18 @@ it("renders correctly", () => {
         class="sc-kLgntA hmuPEi"
       >
         <nav
-          class="sc-iktFzd kdceaU"
+          class="sc-iktFzd kSivaY"
         >
           <div
             class="sc-gsTCUz sc-dlfnbm jLyPtw byPlie"
           >
             <button
               aria-label="Toggle menu"
-              class="sc-eCssSg cvdPRn sc-jSgupP jzHrHX"
+              class="sc-eCssSg cJvBtr sc-jSgupP hCCShP"
               scale="md"
             >
               <svg
-                class="sc-hKgILt kWWiFo"
+                class="sc-hKgILt konsK"
                 color="textSubtle"
                 viewBox="0 0 24 24"
                 width="24px"
@@ -87,7 +87,7 @@ it("renders correctly", () => {
           >
             <div>
               <button
-                class="sc-eCssSg knsIbd"
+                class="sc-eCssSg dUOYud"
                 scale="sm"
               >
                 0xbd...c980
@@ -99,13 +99,13 @@ it("renders correctly", () => {
           class="sc-jJEJSO hYddnZ"
         >
           <div
-            class="sc-dmlrTW ioyBtf"
+            class="sc-dmlrTW hPbMUf"
           >
             <div
               class="sc-kEjbxe fnkFQx"
             >
               <div
-                class="sc-fubCfw ivOlsg"
+                class="sc-fubCfw fYkQzm"
                 role="button"
               >
                 <a
@@ -114,7 +114,7 @@ it("renders correctly", () => {
                   href="/"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -135,11 +135,11 @@ it("renders correctly", () => {
                 class="sc-pFZIQ kJqcph"
               >
                 <div
-                  class="sc-fubCfw bRGoVr"
+                  class="sc-fubCfw eWTPd"
                   role="button"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -157,7 +157,7 @@ it("renders correctly", () => {
                     Trade
                   </div>
                   <svg
-                    class="sc-hKgILt knzMMt"
+                    class="sc-hKgILt jiVrUJ"
                     color="text"
                     viewBox="0 0 24 24"
                     width="20px"
@@ -173,14 +173,14 @@ it("renders correctly", () => {
                 />
               </div>
               <div
-                class="sc-fubCfw bRGoVr"
+                class="sc-fubCfw eWTPd"
                 role="button"
               >
                 <a
                   href="/farms"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -211,14 +211,14 @@ it("renders correctly", () => {
                 </a>
               </div>
               <div
-                class="sc-fubCfw bRGoVr"
+                class="sc-fubCfw eWTPd"
                 role="button"
               >
                 <a
                   href="/syrup"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -241,14 +241,14 @@ it("renders correctly", () => {
                 </a>
               </div>
               <div
-                class="sc-fubCfw bRGoVr"
+                class="sc-fubCfw eWTPd"
                 role="button"
               >
                 <a
                   href="/lottery"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -268,14 +268,14 @@ it("renders correctly", () => {
                 </a>
               </div>
               <div
-                class="sc-fubCfw bRGoVr"
+                class="sc-fubCfw eWTPd"
                 role="button"
               >
                 <a
                   href="/nft"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -296,11 +296,11 @@ it("renders correctly", () => {
                 class="sc-pFZIQ kJqcph"
               >
                 <div
-                  class="sc-fubCfw ivOlsg rainbow"
+                  class="sc-fubCfw fYkQzm rainbow"
                   role="button"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -316,7 +316,7 @@ it("renders correctly", () => {
                     Profile & Teams
                   </div>
                   <svg
-                    class="sc-hKgILt knzMMt"
+                    class="sc-hKgILt jiVrUJ"
                     color="text"
                     viewBox="0 0 24 24"
                     width="20px"
@@ -335,11 +335,11 @@ it("renders correctly", () => {
                 class="sc-pFZIQ kJqcph"
               >
                 <div
-                  class="sc-fubCfw bRGoVr"
+                  class="sc-fubCfw eWTPd"
                   role="button"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -360,7 +360,7 @@ it("renders correctly", () => {
                     Info
                   </div>
                   <svg
-                    class="sc-hKgILt knzMMt"
+                    class="sc-hKgILt jiVrUJ"
                     color="text"
                     viewBox="0 0 24 24"
                     width="20px"
@@ -379,11 +379,11 @@ it("renders correctly", () => {
                 class="sc-pFZIQ kJqcph"
               >
                 <div
-                  class="sc-fubCfw bRGoVr"
+                  class="sc-fubCfw eWTPd"
                   role="button"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -399,7 +399,7 @@ it("renders correctly", () => {
                     IFO
                   </div>
                   <svg
-                    class="sc-hKgILt knzMMt"
+                    class="sc-hKgILt jiVrUJ"
                     color="text"
                     viewBox="0 0 24 24"
                     width="20px"
@@ -418,11 +418,11 @@ it("renders correctly", () => {
                 class="sc-pFZIQ kJqcph"
               >
                 <div
-                  class="sc-fubCfw bRGoVr"
+                  class="sc-fubCfw eWTPd"
                   role="button"
                 >
                   <svg
-                    class="sc-hKgILt lphbEb"
+                    class="sc-hKgILt glpoOj"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -438,7 +438,7 @@ it("renders correctly", () => {
                     More
                   </div>
                   <svg
-                    class="sc-hKgILt knzMMt"
+                    class="sc-hKgILt jiVrUJ"
                     color="text"
                     viewBox="0 0 24 24"
                     width="20px"
@@ -455,14 +455,14 @@ it("renders correctly", () => {
               </div>
             </div>
             <div
-              class="sc-idOhPF bXwMqE"
+              class="sc-idOhPF elLWMA"
             >
               <button
-                class="sc-eCssSg bcQvse sc-iqHYGH iOsNjo"
+                class="sc-eCssSg kDGpve sc-iqHYGH iOsNjo"
                 scale="md"
               >
                 <svg
-                  class="sc-hKgILt knzMMt"
+                  class="sc-hKgILt jiVrUJ"
                   color="text"
                   viewBox="0 0 24 24"
                   width="20px"
@@ -481,7 +481,7 @@ it("renders correctly", () => {
             body
           </div>
           <div
-            class="sc-bdfBwQ sc-gWHgXt bQcnNj IZmxf"
+            class="sc-bdfBwQ sc-gWHgXt celHMD IZmxf"
             role="presentation"
           />
         </div>
