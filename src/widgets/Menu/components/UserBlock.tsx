@@ -4,13 +4,15 @@ import { useWalletModal } from "../../WalletModal";
 import { Login } from "../../WalletModal/types";
 
 interface Props {
+  baseUrl?: string;
+  baseUrlText?: string;
   account?: string;
   login: Login;
   logout: () => void;
 }
 
-const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
-  const { onPresentConnectModal, onPresentAccountModal } = useWalletModal(login, logout, account);
+const UserBlock: React.FC<Props> = ({ baseUrl, baseUrlText, account, login, logout }) => {
+  const { onPresentConnectModal, onPresentAccountModal } = useWalletModal(login, logout, account, baseUrl, baseUrlText);
   const accountEllipsis = account ? `${account.substring(0, 4)}...${account.substring(account.length - 4)}` : null;
   return (
     <div>

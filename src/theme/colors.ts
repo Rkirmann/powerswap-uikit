@@ -30,6 +30,7 @@ export const lightColors: Colors = {
   textSubtle: "#175abc",
   borderColor: "#E9EAEB",
   card: "rgba(255,255,255,0.8)",
+  popup: "rgba(255,255,255)",
   icon: "#fff",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
@@ -54,6 +55,7 @@ export const darkColors: Colors = {
   textSubtle: "#FFF",
   borderColor: "#524B63",
   card: "rgba(0, 0, 0, 0.5)",
+  popup: "rgba(0,0,0)",
   icon: "#FFF",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
