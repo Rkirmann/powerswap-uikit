@@ -25,8 +25,8 @@ const AccountModal: React.FC<Props> = ({ baseUrl, baseUrlText, account, logout, 
       {account}
     </Text>
     <Flex mb="32px">
-      <LinkExternal small href={`${baseUrl ? baseUrl : `https://explorer.harmony.one/#/address/`}${account}`} mr="16px">
-        {baseUrlText ? baseUrlText : `View On Harmony`}
+      <LinkExternal small href={`${baseUrl || `https://explorer.harmony.one/#/address/`}${account}`} mr="16px">
+        {baseUrlText || `View On Harmony`}
       </LinkExternal>
       <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
     </Flex>
