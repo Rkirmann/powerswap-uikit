@@ -57,4 +57,6 @@ export interface NavProps extends PanelProps {
   logoAlt?: string;
   logoSrc?: string;
   tokenSrc?: string;
+  baseScanUrl?: string;
+  baseScanText?: string;
 }

@@ -9,7 +9,7 @@ it("renders ConnectModal correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-fubCfw jWYxug"
+        class="sc-fubCfw kxQYJq"
       >
         <div
           class="sc-pFZIQ QVCVy"
@@ -470,7 +470,7 @@ it("renders AccountModal correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-fubCfw jWYxug"
+        class="sc-fubCfw kxQYJq"
       >
         <div
           class="sc-pFZIQ QVCVy"
