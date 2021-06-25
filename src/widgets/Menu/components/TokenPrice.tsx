@@ -24,7 +24,7 @@ const PriceLink = styled.a`
   }
 `;
 
-const DEFAULT_TOKEN_SRC = "https://lootswap.finance/tokens/LOOT-LP.png";
+const DEFAULT_TOKEN_SRC = "https://powerswap.finance/tokens/LOOT-LP.png";
 
 const TokenPrice: React.FC<Props> = ({ tokenPriceUsd, link, tokenSrc }) => {
   const finalTokenSrc = tokenSrc || DEFAULT_TOKEN_SRC;

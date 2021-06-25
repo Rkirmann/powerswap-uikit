@@ -56,7 +56,7 @@ const MenuEntry = styled.div<Props>`
   &.rainbow {
     background-clip: text;
     animation: ${rainbowAnimation} 3s ease-in-out infinite;
-    background: ${({ theme }) => theme.colors.gradients.lootswap};
+    background: ${({ theme }) => theme.colors.gradients.powerswap};
     background-size: 400% 100%;
   }
 `;

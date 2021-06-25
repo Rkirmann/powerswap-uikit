@@ -72,13 +72,13 @@ it("renders correctly", () => {
               </svg>
             </button>
             <a
-              aria-label="Lootswap home page"
+              aria-label="Powerswap home page"
               class="sc-gKsewC jnkuUV"
               href="/"
             >
               <img
                 class="logo-img"
-                src="https://lootswap.finance/static/media/loot_logo.5ca5dce3.png"
+                src="https://powerswap.finance/static/media/loot_logo.5ca5dce3.png"
               />
             </a>
           </div>
@@ -206,7 +206,7 @@ it("renders correctly", () => {
                   <div
                     class="sc-iBPRYJ fNYuxK"
                   >
-                    Quest Log
+                    Grid Log
                   </div>
                 </a>
               </div>
@@ -215,7 +215,7 @@ it("renders correctly", () => {
                 role="button"
               >
                 <a
-                  href="https://analytics.lootswap.finance/"
+                  href="https://analytics.powerswap.finance/"
                 >
                   <svg
                     class="sc-hKgILt glpoOj"

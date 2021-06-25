@@ -20,14 +20,14 @@ export const links = [
     ],
   },
   {
-    label: "Quest Log",
+    label: "Grid Log",
     icon: "FarmIcon",
     href: "/questlog",
   },
   {
     label: "Analytics",
     icon: "InfoIcon",
-    href: "https://analytics.lootswap.finance/",
+    href: "https://analytics.powerswap.finance/",
   },
   {
     label: "More",
@@ -35,23 +35,23 @@ export const links = [
     items: [
       {
         label: "Voting",
-        href: "https://gov.harmony.one/#/lootswap",
+        href: "https://gov.harmony.one/#/powerswap",
       },
       {
         label: "Github",
-        href: "https://github.com/LootSwap",
+        href: "https://github.com/PowerSwap",
       },
       {
         label: "White Paper",
-        href: "https://lootswap.finance/whitepaper/LootSwap_WP_Part_1.pdf",
+        href: "https://powerswap.finance/whitepaper/PowerSwap_WP_Part_1.pdf",
       },
       {
         label: "Blog",
-        href: "https://lootswapfinance.medium.com/",
+        href: "https://powerswapfinance.medium.com/",
       },
       {
         label: "Twitter",
-        href: "https://twitter.com/lootswapfinance",
+        href: "https://twitter.com/powerswapfinance",
       },
     ],
   },
@@ -64,7 +64,7 @@ export const socials = [
     items: [
       {
         label: "Join Chat",
-        href: "https://t.me/lootswap",
+        href: "https://t.me/powerswap",
       },
     ],
   },

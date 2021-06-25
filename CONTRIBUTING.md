@@ -1,4 +1,4 @@
-# Contributing to the LootSwap ecosystem
+# Contributing to the PowerSwap ecosystem
 
 Thanks for taking the time to contribute !
 

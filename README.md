@@ -1,20 +1,20 @@
-# Lootswap UIkit
+# Powerswap UIkit
 
-Lootswap UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
+Powerswap UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @lootswap/uikit`
+`yarn add @powerswap/uikit`
 
 ## Setup
 
 ### Theme
 
-Before using lootswap UIkit, you need to provide the theme file to styled-component.
+Before using powerswap UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@lootswap/uikit'
+import { light, dark } from '@powerswap/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -24,7 +24,7 @@ import { light, dark } from '@lootswap/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@lootswap/uikit'
+import { ResetCSS } from '@powerswap/uikit'
 ...
 <ResetCSS />
 ```

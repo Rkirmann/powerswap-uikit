@@ -25,11 +25,11 @@ const StyledLink = styled(Link)`
 
 // TODO: We may want to load the default logo differently. This logo is huge and takes forever
 // to load.
-const DEFAULT_LOGO_SRC = "https://lootswap.finance/static/media/loot_logo.5ca5dce3.png";
+const DEFAULT_LOGO_SRC = "https://powerswap.finance/static/media/loot_logo.5ca5dce3.png";
 
 const Logo: React.FC<Props> = ({ isPushed, togglePush, href, logoComp, logoAlt, logoSrc }) => {
   const isAbsoluteUrl = href.startsWith("http");
-  const altText = logoAlt || "Lootswap home page";
+  const altText = logoAlt || "Powerswap home page";
   const finalSrc = logoSrc || DEFAULT_LOGO_SRC;
   const innerLogo = logoComp || <img src={finalSrc} alt={logoAlt} className="logo-img" />;
 

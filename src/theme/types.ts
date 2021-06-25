@@ -29,7 +29,7 @@ export type Shadows = {
 
 export type Gradients = {
   bubblegum: string;
-  lootswap: string;
+  powerswap: string;
 };
 
 export type Colors = {

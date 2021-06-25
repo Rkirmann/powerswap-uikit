@@ -34,7 +34,7 @@ export const lightColors: Colors = {
   icon: "#fff",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
-    lootswap: "linear-gradient(139.73deg, #b5cff6 0%, #b9ebef 100%)",
+    powerswap: "linear-gradient(139.73deg, #b5cff6 0%, #b9ebef 100%)",
   },
 };
 
@@ -59,6 +59,6 @@ export const darkColors: Colors = {
   icon: "#FFF",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
-    lootswap: "linear-gradient(139.73deg, #164b98 0%, #b9ebef 100%)",
+    powerswap: "linear-gradient(139.73deg, #164b98 0%, #b9ebef 100%)",
   },
 };
